@@ -1,0 +1,22 @@
+{
+  "author": "zbryikt",
+  "name": "@lightbox-dash/lightbox",
+  "private": true,
+  "description": "lightbox org files",
+  "version": "0.0.1",
+  "homepage": "https://github.com/lightbox-dash/lightbox",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lightbox-dash/lightbox"
+  },
+  "engines": {
+    "node": ">=0.12.6",
+    "npm": ">=1.2.2"
+  },
+  "scripts": {
+    "start": "npx server -r web -o true"
+  },
+  "devDependencies": {
+    "livescript": "^1.6.0"
+  }
+}
