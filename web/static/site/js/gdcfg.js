@@ -1,9 +1,9 @@
 ldc.register("sitecfg", [], function () {
   return {
     i18n: {
-      placeholder: false,
+      placeholder: true,
       cfg: {
-        supportedLng: ["zh-TW", "en"],
+        supportedLng: ["zh-TW"],
         fallbackLng: "zh-TW"
       }
     }
